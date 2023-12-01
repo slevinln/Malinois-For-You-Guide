@@ -46,7 +46,7 @@ h1 {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #lightcoral;
+    background-color: lightcoral;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -69,7 +69,7 @@ footer {
 }
 
 #nav-menu {
-    font-size: 120%,
+    font-size: 120%;
     letter-spacing: 1px;
     list-style-type: none;
 }
