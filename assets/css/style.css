@@ -29,7 +29,8 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px black;
     font-size: 85%;
-    padding-top: 5px;
+    padding: 5px;
+    text-align: center;
 }
 
 header a {
@@ -175,11 +176,14 @@ footer {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 /* Header */
+
 nav {
     display: block;
     position: relative;
     box-shadow: none;
     width: fit-content; 
+    margin-left: auto;
+    margin-right: auto;
     }
 
 .nav-menu-toggle-label {
