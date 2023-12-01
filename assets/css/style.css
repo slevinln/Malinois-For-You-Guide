@@ -89,6 +89,11 @@ footer {
     display: none;
 }
 
+/* Hero section */
+#hero {
+    width: 100%;
+}
+
 #social-media {
     text-align: center;
     padding: 10px 0;
