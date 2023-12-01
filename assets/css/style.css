@@ -74,6 +74,11 @@ main {
     margin: auto;
 }
 
+.redirect {
+    background-color: lightcoral;
+    height: 100%;
+}
+
 .image { 
     display: block;
     margin-left: auto;
