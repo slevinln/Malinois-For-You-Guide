@@ -40,6 +40,18 @@ h1 {
     color: rgb(43, 40, 40);
 }
 
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #lightcoral;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
 /* Main content */
 main {
     background-color: lightgreen;
@@ -52,7 +64,7 @@ footer {
     background-color: orange;
 }
 
-#nav {
+#nav-menu {
     font-size: 120%,
     letter-spacing: 1px;
     list-style-type: none;
@@ -62,6 +74,6 @@ footer {
     border-bottom: 1px solid black;
 }
 
-#nav > li {
+#nav-menu > li {
     margin-bottom: 0.5em;
 }
