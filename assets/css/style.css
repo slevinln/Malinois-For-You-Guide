@@ -57,7 +57,8 @@ main {
     background-color: lightgreen;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 272px;
+    /* Adjust for absolute header position */
+    margin-top: 48px;
 }
 
 /* Footer */
@@ -95,7 +96,11 @@ nav {
     display: block;
     position: relative;
     box-shadow: none;
-    width: fit-content;
-    padding-right: 1rem;
+    width: fit-content; 
     }
+
+.nav-menu-toggle-label {
+    display: none;
+    }
+
 }
