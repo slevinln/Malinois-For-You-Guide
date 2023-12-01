@@ -103,4 +103,16 @@ nav {
     display: none;
     }
 
+#logo {
+    font-size: 330%;
+    line-height: 75px;
+    margin: 0 1rem;
+    }
+
+/* Main content */
+main {
+    /* Push main content down to accommodate larger header */
+    margin-top: 238px;
+    }
+
 }
