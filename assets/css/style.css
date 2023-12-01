@@ -63,7 +63,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: orange;
+    background-color: lightcoral;
 }
 
 #nav-menu {
@@ -87,6 +87,20 @@ footer {
 
 #nav-menu-toggle {
     display: none;
+}
+
+#social-media {
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media i {
+    font-size: 160%;
+    padding: 15%;
+    color: black;
 }
 
 /* Media query: tablets and larger (768px and up) */
