@@ -65,6 +65,11 @@ main {
     flex-direction: column;
 }
 
+.introduction {
+    text-align: center;
+    line-height: 30px;
+}
+
 .newsletter {
     margin: auto;
 }
