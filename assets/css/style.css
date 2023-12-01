@@ -61,11 +61,16 @@ main {
     margin-top: 48px;
 }
 
-img {
+.image { 
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
     max-width: 100%;
+}
+
+.image-circle {
+    /* Makes the image circular */
+    border-radius: 50%;
 }
 
 /* Footer */
@@ -94,10 +99,6 @@ footer {
 
 #nav-menu-toggle {
     display: none;
-}
-
-/* Hero section */
-#hero {
 }
 
 #social-media {
