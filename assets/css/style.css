@@ -65,7 +65,7 @@ main {
     flex-direction: column;
 }
 
-.introduction {
+.content {
     text-align: center;
     line-height: 30px;
 }
