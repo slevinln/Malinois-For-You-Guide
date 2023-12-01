@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
+    /* Generic Project Styles */
     color: #3a3a3a;
     font-family: Rubik, sans-serif;
     line-height: 150%;
@@ -42,7 +42,7 @@ h1 {
     color: rgb(43, 40, 40);
 }
 
-/* Navbar styles with dropdown toggle */
+/* Navbar Styles with Dropdown Toggle */
 nav {
     position: absolute;
     background-color: lightcoral;
@@ -54,12 +54,12 @@ nav {
     top: 100%;
 }
 
-/* Main content */
+/* Main Content */
 main {
     background-color: lightgreen;
-    /* Make main element take up any surplus space to push footer down */
+    /* Make Main Element take up any surplus space to push Footer down */
     flex: 1 0 auto;
-    /* Adjust for absolute header position */
+    /* Adjust for absolute Header position */
     margin-top: 53px;
     display: flex;
     flex-direction: column;
@@ -76,7 +76,8 @@ main {
 
 .redirect {
     background-color: lightcoral;
-    height: 100%;
+    margin-top: 0;
+    padding: 60px 20%;
 }
 
 .image { 
