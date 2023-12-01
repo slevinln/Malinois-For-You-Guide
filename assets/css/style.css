@@ -196,6 +196,7 @@ nav {
 main {
     /* Push main content down to accommodate larger header */
     margin-top: 276px;
+    padding: 0 10%;
     }
 
 }
