@@ -16,6 +16,7 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: Rubik, sans-serif;
+    line-height: 150%;
 }
 
 
@@ -28,6 +29,7 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px black;
     font-size: 85%;
+    padding-top: 5px;
 }
 
 header a {
@@ -58,9 +60,13 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     /* Adjust for absolute header position */
-    margin-top: 48px;
+    margin-top: 53px;
     display: flex;
     flex-direction: column;
+}
+
+.newsletter {
+    margin: auto;
 }
 
 .image { 
@@ -76,7 +82,7 @@ main {
     border-radius: 50%;
 }
 
-.last-image {
+.last-page-image {
     padding: 20px 0;
     text-align: center;
 }
@@ -147,6 +153,7 @@ footer {
 #signup {
     padding: 20px 10% 0 10%;
     flex-grow: 1;
+    align-content: center;
 }
 
 #signup-form {
@@ -177,13 +184,13 @@ nav {
 #signup-form {
     position: absolute;
     left: 10%;
-    top: 250px;
+    top: 272px;
 }
 
 /* Main content */
 main {
     /* Push main content down to accommodate larger header */
-    margin-top: 240px;
+    margin-top: 276px;
     }
 
 }
