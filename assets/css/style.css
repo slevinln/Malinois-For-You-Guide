@@ -22,14 +22,12 @@ body {
 /* Header */
 header {
     background-color: lightcoral;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px black;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    font-size: 85%;
 }
 
 header a {
@@ -38,7 +36,6 @@ header a {
 }
 
 h1 {
-    text-transform: uppercase;
     letter-spacing: 1px;
     color: rgb(43, 40, 40);
 }
@@ -60,7 +57,7 @@ main {
     background-color: lightgreen;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 76px;
+    margin-top: 272px;
 }
 
 /* Footer */
@@ -89,4 +86,16 @@ footer {
 
 #nav-menu-toggle {
     display: none;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+/* Header */
+nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+    }
 }
