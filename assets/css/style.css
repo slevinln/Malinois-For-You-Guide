@@ -144,6 +144,7 @@ footer {
 
 #signup-form {
     padding: 30px;
+    max-width: 400px;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -165,6 +166,12 @@ nav {
     line-height: 75px;
     margin: 0 1rem;
     }
+
+#signup-form {
+    position: absolute;
+    left: 10%;
+    top: 250px;
+}
 
 /* Main content */
 main {
