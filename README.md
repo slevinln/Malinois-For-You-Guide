@@ -1,6 +1,6 @@
 # Malinois For You
 
-![The introduction page for Malinois For You, with the navigation bar visible and a malinois walking towards the camera](assets/images/malinois-introduction-page.jpg)
+![The introduction page for Malinois For You, with the navigation bar visible and a malinois walking towards the camera.](https://github.com/slevinln/Malinois-For-You-Guide/assets/146954126/8d70a669-0994-4a89-9fad-828e917fdef9)
 
 The Malinois is one of the most curated dog breeds in the world. Many people might be tempted to adopt this dog without knowing about their needs and demands. To help making that choice, this website ist designed to give information about the character, training requirements and other traits. After reading through the site, users should be able to make an educated decision if they want to adopt a dog of this breed. It is also meant to raise awareness about current activities of Malinois in service or in official dog sport competitions by offering a newsletter.
 The title of the website has been shortened on purpose to better fit on smaller devices and to be more memorable. A very long title would also not fit with the scope of the project; detailed information like body measurements or breed lineages is not included.
@@ -13,7 +13,7 @@ The navigation bar is featured on every page and allows the user to easily find 
 
 ### Newsletter
 
-![The newsletter form for subscribing. Contains the only pun in the project.](assets/images/malinois-newsletter.jpg)
+![The newsletter form for subscribing. Contains the only pun in the project.](https://github.com/slevinln/Malinois-For-You-Guide/assets/146954126/0b00e006-07c0-48b9-aa82-4ad75be5afd8)
 
 Users can subscribe to the newsletter by inputting their name and email address; upon submitting, they are redirected through a thank-you-page back to the landing page.
 
@@ -32,7 +32,7 @@ The landing page gives a short introduction to the breed and the purpose of the 
 
 ### Footer
 
-![picture of a Malinois getting his ear scratched and the footer with the social media links](assets/images/malinois-large-screen-and-footer.jpg)
+![picture of a Malinois getting his ear scratched and the footer with the social media links.](https://github.com/slevinln/Malinois-For-You-Guide/assets/146954126/df30e409-a0ba-451d-8396-ff299cefe3a3)
 
 Contains links to the social media of the website owner, who posts stories and pictures of Malinois. For anyone who wants more Malinois content and isn't interested in/ satisfied by the newsletter.
 
@@ -76,7 +76,7 @@ CSS has been tested through the official Jigsaw validator with the result: No er
 
 Accessibility has been tested through Lighthouse with the result: 100/100
 
-![Lighthouse score is 100, the other scores are very high as well.](assets/images/malinois-lighthouse-score.jpg)
+![Lighthouse score is 100, the other scores are very high as well.](https://github.com/slevinln/Malinois-For-You-Guide/assets/146954126/c227dcd7-d498-4267-b4d0-4ef06583bb6a)
 
 The following browsers were tested and found no issues: Chrome, Edge, Firefox and Opera.
 
@@ -93,7 +93,7 @@ The live link can be found here: https://slevinln.github.io/Malinois-For-You-Gui
 
 ## Credits
 
-![A malinois lying on a bed with an open book in front of him. He stares at it intently.](assets/images/malinois-mobile-view.jpg)
+![A malinois lying on a bed with an open book in front of him. He stares at it intently.](https://github.com/slevinln/Malinois-For-You-Guide/assets/146954126/c016c347-59eb-4697-808a-7fcb92ef8837)
 
 As a student at CodeInstitute, I regularly used their Essentials Modules for creating this project.
 This project was built following the "Love Running 2.0" project from CodeInstitute.
