@@ -1,6 +1,7 @@
 # The Malinois For You Website
 
 The Malinois is one of the most curated dog breeds in the world. Many people might be tempted to adopt this dog without knowing about their needs and demands. To help making that choice, this website ist designed to give information about the character, training requirements and other traits. After reading through the site, users should be able to make an educated decision if they want to adopt a dog of this breed. It is also meant to raise awareness about current activities of Malinois in service or in official dog sport competitions by offering a newsletter.
+The title of the website has been shortened on purpose to better fit on smaller devices and to be more memorable. A very long title would also not fit with the scope of the project; detailed information like body measurements or breed lineages is not included.
 
 ## Features
 
@@ -86,3 +87,4 @@ Information about the malinois was taken from the following sources: Wikipedia, 
 Favicons were taken from Iconarchive.
 
 Images were taken from IStockphoto.
+
