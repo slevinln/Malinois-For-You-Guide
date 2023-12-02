@@ -60,15 +60,15 @@ The font-family used is Rubik.
 
 ### Validator Testing
 
-HTML has been tested through the official W3C validator with the result: INSERT FINAL RESULT
+HTML has been tested through the official W3C validator with the result: No errors or warnings to show.
 
-CSS has been tested through the official Jigsaw validator with the result: INSERT FINAL RESULT
+CSS has been tested through the official Jigsaw validator with the result: No errors or warning signs to show.
 
-Accessibility has been tested trrough Lighthouse with the result: INSERT SCORE OR SCREENSHOT OF THE SCORE
+Accessibility has been tested through Lighthouse with the result: 100/100
 
 ### Unfixed Bugs
 
-DOCUMENT ALL UNFIXED BUGS HERE
+No bugs were found during validator testing and 
 
 ## Deployment
 
