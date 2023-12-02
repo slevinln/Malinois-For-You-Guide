@@ -67,6 +67,7 @@ main {
 }
 
 .content {
+    padding: 5px;
     text-align: center;
     line-height: 30px;
 }
@@ -177,44 +178,46 @@ footer {
     max-width: 400px;
 }
 
-/* Media query: tablets and larger (768px and up) */
+/* Media query: large Mobiles (425px and up) */
+@media screen and (min-width: 425px) {
+    .content {
+        padding: 70px;
+    }
+}
+
+/* Media query: Tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 /* Header */
 
-nav {
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content; 
-    margin-left: auto;
-    margin-right: auto;
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content; 
+        margin-left: auto;
+        margin-right: auto;
     }
 
-.nav-menu-toggle-label {
-    display: none;
+    .nav-menu-toggle-label {
+        display: none;
     }
 
-#logo {
-    font-size: 330%;
-    line-height: 75px;
-    margin: 0 1rem;
+    #logo {
+        font-size: 330%;
+        line-height: 75px;
+        margin: 0 1rem;
     }
-
-#signup-form { 
-    left: 10%;
-    top: 272px;
-}
-
-/* Main content */
-main {
-    /* Push main content down to accommodate larger header */
-    margin-top: 276px;
-    padding: 0 20%;
+    
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 276px; 
+        padding: 0 10%; 
     }
 
 }
 
-/* Large devices (laptops and desktops, 992px and up) */
+/* Large devices (Laptops and Desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #nav-menu a:hover {
         border-bottom: 1px solid black;
