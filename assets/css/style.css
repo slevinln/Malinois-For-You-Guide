@@ -199,8 +199,7 @@ nav {
     margin: 0 1rem;
     }
 
-#signup-form {
-    position: absolute;
+#signup-form { 
     left: 10%;
     top: 272px;
 }
