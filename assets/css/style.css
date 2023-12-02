@@ -127,6 +127,7 @@ footer {
     border: 2px solid black;
     border-radius: 2px;
     padding: 0 5px;
+    text-align: center;
 }
 
 .join-button {
@@ -166,12 +167,13 @@ footer {
 
 /* Styles ID's for the Newsletter Submission */
 #signup {
-    padding: 20px 10% 0 10%;
+    padding: 20px 0 0;
     flex-grow: 1;
     align-content: center;
 }
 
 #signup-form {
+    margin: auto;
     padding: 30px;
     max-width: 400px;
 }
