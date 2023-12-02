@@ -62,25 +62,50 @@ The font-family used is Rubik.
 
 HTML has been tested through the official W3C validator with the result: No errors or warnings to show.
 
-CSS has been tested through the official Jigsaw validator with the result: No errors or warning signs to show.
+CSS has been tested through the official Jigsaw validator with the result: No errors or warnings to show.
 
 Accessibility has been tested through Lighthouse with the result: 100/100
 
+The following browser were tested and found no issues: Chrome, Edge, Firefox and Opera.
+
 ### Unfixed Bugs
 
-No bugs were found during validator testing and 
+No bugs were found during validator testing and while testing the page manually using a laptop and a Galaxy S9+.
 
 ## Deployment
 
-The site was deployed to GitHub pages.
+The site was deployed to GitHub pages. To deploy a page, you must navigate to Settings > Pages > Build and deployment > Source > Deploy from a Branch >
+main Branch & /root > Save
 
-The live link can be found here: INSERT LIVE LINK
+The live link can be found here: https://slevinln.github.io/Malinois-For-You-Guide/
 
-## Credit
+## Credits
+
+As a student at CodeInstitute, I regularly used their Essentials Modules for creating this project.
+This project was built following the "Love Running 2.0" project from CodeInstitute.
+I also want to thank my mentor Chris Quinn for helping me with his advice, especially recommending to add a redirect to the newsletter.
+
+Other sources and tutorials I used for Coding:
+
+https://www.scaler.com/topics/align-image-in-html/ - How to align images
+https://www.browserstack.com/guide/how-to-make-images-responsive - How to make images responsive
+https://www.w3schools.com/howto/howto_css_border_image.asp - Creating a border around an image
+https://www.w3.org/TR/WCAG20-TECHS/H76.html - Creating an automatic redirect after inputting a form.
 
 ### Content
 
-Information about the malinois was taken from the following sources: Wikipedia, INSERT OTHER SOURCES
+Information about the malinois was taken from the following sources: 
+
+https://en.wikipedia.org/wiki/Belgian_Shepherd
+
+https://cherishpetfood.com.au/belgian-malinois-everything-you-need-to-know-dog-care-101/
+
+https://www.akc.org/expert-advice/dog-breeds/getting-right-belgian-malinois-good-fit/
+
+https://www.myfamilyvets.co.uk/belgian-malinois-breed-guide
+
+https://www.thesprucepets.com/breed-profile-belgian-malinois-1117910#toc-belgian-malinois-care
+
 
 ### Media
 
@@ -88,3 +113,4 @@ Favicons were taken from Iconarchive.
 
 Images were taken from IStockphoto.
 
+The Icons in the footer and the header were taken from Font Awesome.
