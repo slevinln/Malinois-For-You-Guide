@@ -1,14 +1,14 @@
-/* Google fonts import */
+/* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* Asterisk wildcard selector for overriding default styles */
+/* Asterisk Wildcard Selector for overriding default Styles */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* General styles */
+/* Element Styles */
 body {
     min-height: 100vh;
     display: flex;
@@ -60,12 +60,19 @@ main {
     background-color: lightgreen;
     /* Make Main Element take up any surplus space to push Footer down */
     flex: 1 0 auto;
-    /* Adjust for absolute Header position */
+    /* Adjust for absolute Header Position */
     margin-top: 53px;
     display: flex;
     flex-direction: column;
 }
 
+/* Footer */
+footer {
+    background-color: lightcoral;
+    box-shadow: 0 -2px 0 black;
+}
+
+/* Classes for Styling start here*/
 .content {
     padding: 5px;
     text-align: center;
@@ -77,12 +84,14 @@ main {
     text-align: center;
 }
 
+/* Since the redirect only takes 3 seconds, there isn't more Styling */
 .redirect {
     background-color: lightcoral;
     margin-top: 0;
     padding: 60px 20%;
 }
 
+/* Set Styles for all Images at the Top of the Body */
 .image { 
     display: block;
     margin-left: auto;
@@ -92,28 +101,18 @@ main {
     border: 3px solid black; 
 }
 
+/* Makes the Image circular */
 .image-circle {
-    /* Makes the image circular */
     border-radius: 50%;
 }
 
+/* Style to affect the Texts under the Images */
 .last-page-image {
     padding: 20px 0;
     text-align: center;
 }
 
-/* Footer */
-footer {
-    background-color: lightcoral;
-    box-shadow: 0 -2px 0 black;
-}
-
-#nav-menu {
-    font-size: 120%;
-    letter-spacing: 1px;
-    list-style-type: none;
-}
-
+/* To help the User see which page they're on */
 .active {
     border-bottom: 1px solid black;
 }
@@ -137,6 +136,13 @@ footer {
     font-size: 100%;
 }
 
+/* ID's for Styling start here*/
+#nav-menu {
+    font-size: 120%;
+    letter-spacing: 1px;
+    list-style-type: none;
+}
+
 #nav-menu > li {
     margin-bottom: 0.5em;
 }
@@ -146,8 +152,9 @@ footer {
     display: block;
 }
 
+/* Hides the Nav-Button */
 #nav-menu-toggle {
-    display: none;
+    display: none; 
 }
 
 /* Styles for the Footer Social Media links */
@@ -159,6 +166,7 @@ footer {
     list-style-type: none;
 }
 
+/* Improve Icon Visibility */
 #social-media i {
     font-size: 160%;
     padding: 15%;
@@ -178,9 +186,12 @@ footer {
     max-width: 400px;
 }
 
+/* Screen Size related Styles go to the bottom to be read last by the browser */
+/* Due to few Styles, Order is based on the Elements */
 /* Media query: large Mobiles (425px and up) */
 @media screen and (min-width: 425px) {
     .content {
+        /* To improve Readability using large Mobiles */
         padding: 70px;
     }
 }
@@ -207,7 +218,7 @@ footer {
         line-height: 75px;
         margin: 0 1rem;
     }
-    
+
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
