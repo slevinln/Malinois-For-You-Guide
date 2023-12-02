@@ -1,4 +1,6 @@
-# The Malinois For You Website
+# The Malinois For You
+
+
 
 The Malinois is one of the most curated dog breeds in the world. Many people might be tempted to adopt this dog without knowing about their needs and demands. To help making that choice, this website ist designed to give information about the character, training requirements and other traits. After reading through the site, users should be able to make an educated decision if they want to adopt a dog of this breed. It is also meant to raise awareness about current activities of Malinois in service or in official dog sport competitions by offering a newsletter.
 The title of the website has been shortened on purpose to better fit on smaller devices and to be more memorable. A very long title would also not fit with the scope of the project; detailed information like body measurements or breed lineages is not included.
@@ -12,6 +14,10 @@ The navigation bar is featured on every page and allows the user to easily find 
 ### Newsletter
 
 Users can subscribe to the newsletter by inputting their name and email address; upon submitting, they are redirected through a thank-you-page back to the landing page.
+
+### Colors
+
+Three colors were used in the project: lightyellow, lightskyblue and black for the text. The colors contrast each other nicely without making it difficult to read or distracting from the content. They also don't strain the eyes.
 
 ## General Page Structure
 
